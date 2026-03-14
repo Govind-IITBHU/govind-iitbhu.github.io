@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Govind Kumar | Security Analyst & AI Engineer</title>
+    <style>
+        :root {
+            --primary: #2c3e50;
+            --secondary: #34495e;
+            --accent: #3498db;
+            --text: #333;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: var(--card-bg);
+            padding: 3rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        /* Header & Profile */
+        header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            border-bottom: 2px solid var(--primary);
+            padding-bottom: 2rem;
+            margin-bottom: 2rem;
+        }
+        .profile-img-container {
+            flex-shrink: 0;
+        }
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid var(--accent);
+            background-color: #eee;
+        }
+        .header-info h1 {
+            color: var(--primary);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .header-info h2 {
+            color: var(--accent);
+            font-size: 1.2rem;
+            font-weight: 500;
+            margin-bottom: 1rem;
+        }
+        .contact-info p {
+            font-size: 0.95rem;
+            color: var(--secondary);
+            margin-bottom: 0.2rem;
+        }
+        .contact-info a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        /* Sections */
+        section { margin-bottom: 2.5rem; }
+        h3 {
+            color: var(--primary);
+            font-size: 1.4rem;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        /* Services Highlight (Vertical Layout) */
+        .services-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 1.2rem;
+            margin-top: 1rem;
+        }
+        .service-card {
+            background: var(--bg);
+            padding: 1.5rem;
+            border-left: 4px solid var(--accent);
+            border-radius: 4px;
+        }
+        .service-card h4 { color: var(--primary); margin-bottom: 0.5rem; font-size: 1.15rem; }
+        /* Experience */
+        .job { margin-bottom: 1.5rem; }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 0.5rem;
+        }
+        .job-title { font-weight: bold; color: var(--primary); font-size: 1.1rem; }
+        .job-company { color: var(--accent); font-weight: 500; }
+        .job-date { color: #666; font-size: 0.9rem; }
+        ul { margin-left: 1.5rem; margin-bottom: 1rem; }
+        li { margin-bottom: 0.4rem; }
+        /* Skills */
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+        .skill-tag {
+            background: var(--primary);
+            color: white;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+        /* Responsive */
+        @media (max-width: 600px) {
+            header { flex-direction: column; text-align: center; }
+            .job-header { flex-direction: column; }
+            .container { padding: 1.5rem; margin: 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <div class="profile-img-container">
+            <img src="https://avatars.githubusercontent.com/u/167744630?v=4" alt="Govind Kumar" class="profile-img">
+        </div>
+        <div class="header-info">
+            <h1>Govind Kumar</h1>
+            <h2>Security Analyst | Full-Stack AI Engineer | Tech Consultant</h2>
+            <div class="contact-info">
+                <p>📍 Delhi, India 110092</p>
+                <p>📧 <a href="mailto:govind.kumar.min17@itbhu.ac.in">govind.kumar.min17@itbhu.ac.in</a></p>
+                <p>📞 +91 8084970620</p>
+                <p>🔗 <a href="https://linkedin.com/in/govindkumar17" target="_blank">linkedin.com/in/govindkumar17</a></p>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <h3>Professional Summary & Objective</h3>
+        <p>Results-driven Senior System Analyst and CTO-level engineer with deep expertise in designing quantitative trading infrastructure and advanced AI/ML systems. I specialize in bridging technical rigor with business outcomes. Whether you need proactive vulnerability discovery, scalable infrastructure, or rapid deployment of cutting-edge AI models, I deliver robust, production-grade solutions in incredibly short timeframes.</p>
+    </section>
+
+    <section>
+        <h3>Consulting & Freelance Services</h3>
+        <div class="services-grid">
+            <div class="service-card">
+                <h4>🔒 Security & Penetration Testing</h4>
+                <p>Comprehensive API and application testing. Identifying frontend/backend vulnerabilities, SQL injections, and infrastructure flaws. Available for blind testing, bug bounties, and ongoing monthly monitoring contracts to keep your systems bulletproof.</p>
+            </div>
+            <div class="service-card">
+                <h4>🤖 Custom AI Agents & LLM Integrations</h4>
+                <p>Deep expertise in modern LLMs and frameworks like OpenClaw. I can rapidly set up and deploy autonomous AI agents, create custom skills, and build tailored AI automations (local or cloud-based) to streamline your specific business workflows.</p>
+            </div>
+            <div class="service-card">
+                <h4>⚡ Rapid MVP & Product Engineering</h4>
+                <p>Need something built fast? I specialize in turning complex requirements and cutting-edge research papers (like LipSync3D or GANs) into production-ready Web or API applications in very short intervals. I build things that work, and I build them quickly.</p>
+            </div>
+            <div class="service-card">
+                <h4>🛠️ System Management & Bug Fixing</h4>
+                <p>Expertise in managing existing services, optimizing performance, and resolving critical, hard-to-find bugs across complex full-stack environments. Skilled in integrating automation, containerization, and data backup solutions.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h3>Technical Arsenal</h3>
+        <div class="skills-container">
+            <span class="skill-tag">AI Agents (OpenClaw, Custom LLMs)</span>
+            <span class="skill-tag">Python (PyTorch, TensorFlow, FastAPI)</span>
+            <span class="skill-tag">JavaScript (NodeJS, NestJS, ReactJS, NextJS)</span>
+            <span class="skill-tag">Security & Pentesting</span>
+            <span class="skill-tag">Web Scraping & Automation</span>
+            <span class="skill-tag">GCP & AWS (S3)</span>
+            <span class="skill-tag">Docker & Linux Admin</span>
+            <span class="skill-tag">PostgreSQL, MongoDB, Redis</span>
+            <span class="skill-tag">Audio/Video Processing (Canvas, FFMPEG)</span>
+        </div>
+    </section>
+
+    <section>
+        <h3>Selected Work Experience</h3>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Senior System Analyst</span>
+                <span class="job-company">Alpha Alternative</span>
+                <span class="job-date">Oct 2023 - Current</span>
+            </div>
+            <ul>
+                <li>Designed and implemented a fully automated quantitative execution infrastructure leveraging React, FastAPI, Redis, MongoDB, and Docker to streamline workflows.</li>
+                <li>Engineered a low-latency trade execution system with hot-hot backup architecture, ensuring continuous uptime and fault tolerance.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Chief Technology Officer (CTO)</span>
+                <span class="job-company">Autovid.ai</span>
+                <span class="job-date">July 2021 - Nov 2022</span>
+            </div>
+            <ul>
+                <li>Implemented the LipSync3D Research Paper (Google Research) for 3D Talking Faces from Video, optimizing models for fast inference.</li>
+                <li>Created REST APIs with Django for an AI Avatar-based Video Creator, managing complex asynchronous tasks via Celery and RabbitMQ.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Full Stack Developer</span>
+                <span class="job-company">Truckbook</span>
+                <span class="job-date">Dec 2022 - Sep 2023</span>
+            </div>
+            <ul>
+                <li>Created optimized trips between millions of loads and integrated them into existing service APIs (NestJS and Flask).</li>
+                <li>Automated operational tasks including complex data scraping, parsing, and direct database injections.</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="job-title">Software Engineer</span>
+                <span class="job-company">Autogenerate.ai</span>
+                <span class="job-date">May 2019 - July 2021</span>
+            </div>
+            <ul>
+                <li>Developed an AI system generating infinite clothing variations utilizing StyleGAN2, achieving an impressive FID score of ~3.5.</li>
+                <li>Scraped 60k high-resolution images for training datasets and built custom classifiers and recommendation systems using VGG16.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <h3>Education</h3>
+        <div class="job-header">
+            <span class="job-title">Bachelor of Technology in Mining Engineering</span>
+            <span class="job-company">Indian Institute of Technology (BHU) Varanasi</span>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
